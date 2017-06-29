@@ -3,36 +3,181 @@
   padding: 0px;
 }
 body{
-background-color: #ffffff;
+
+
+}
+a{
+  text-decoration: none;
+}
+/***contenedor**/
+
+
+/***Style de mi slogan**/
+header {
+  background-color: #313d6e;
 }
 
 .encabezado{
-  background-color: #313d6e;
+
   color: #fff;
   height: auto;
-  padding: 30px 30px 30px 30px;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+.titulo{
+  padding-top: 10px;
+    color: #eec30b;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+
 }
 
-nav ul {
+.eslogan{
 
+
+}
+.registro-inicio {
+    display: inline-block;
+    position:relative;
+    right: 150px;
+    bottom: 0px;
+
+
+}
+.bregistro{
+    background-color: #4e7df6;
+    border-color: #452efb;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+    width: 130px;
+}
+.binicio{
+    background-color: #4e7df6;
+    border-color: #452efb;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+    width: 150px;
+}
+/****buscador**/
+.buscador{
+  display: inline-block;
+  position:absolute;
+}
+
+.ibuscador{
+  border-radius: 20px;
+}
+
+.bbuscador{
+  background-color: #0c43cf;
+  border-color: #6d5ee8;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #ffffff;
+  width: 40px;
+}
+/****navbar**/
+nav ul{
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
   background-color: #2f4cc3;
-
+  font-size: 20px;
 }
 
-li{
+ul a:hover{
+  background-color: red;
+
+}
+li {
     padding: 20px 20px 20px 20px;
     color: #ffffff;
 }
+/****seccion1 caja padre adentro se encuentra  carrucel y menu***/
+.slider-menu1-seccion1{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px  60px  0px  ;
+}
 
+/****hijo de la seccion 1 slider***/
+
+.slider {
+
+  display: flex;
+  justify-content: center;
+}
+/**** hijo de la seccion 2 menu izquierda***/
+.menu{
+  background-color: #4566de;
+  width: 120px;
+  height: 175px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.lista2 a li:hover {
+  background-color: #302cde;
+  list-style: none;
+
+}
+
+/***seccion2 caja padre se encuentran los productos***/
+.m-a-productos1{
+display: flex;
+justify-content: space-around;
+padding: 0px 0px 10px 0px;
+border: 3px solid #bf0fcc;
+}
+
+.tel1{
+  border: 3px solid #cb6a1a;
+}
+
+/***seccion2 caja padre se encuentran los productos lap***/
+.m-a-productos2{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+
+/***seccion2 caja padre se encuentran los productos lap***/
+.m-a-productos3{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 40px 0px;
+}
+/****footer***/
 footer{
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 40px 40px 40px 40px;
   text-align: center;
   background-color: #000000;
   color: #ffffff;
+}
+
+.face{
+  display: inline-block;
+  right: 1500px;
+}
+
+.img-footer{
+    display: inline-block;
 }
