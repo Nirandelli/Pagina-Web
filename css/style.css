@@ -6,89 +6,69 @@ body{
 
 
 }
-a{
-  text-decoration: none;
-}
-/***contenedor**/
-
-
-/***Style de mi slogan**/
+/***Caja padre**/
 header {
   background-color: #313d6e;
 }
-
+/***Caja hijo titulo, eslogan, botones, buscador, icono**/
 .encabezado{
-
   color: #fff;
   height: auto;
   padding: 0px 0px 10px 0px;
   text-align: center;
   font-size: 20px;
   font-family: sans-serif;
-
+  display: flex;
+  justify-content: row;
+  justify-content: space-around;
 }
+/***caja hijo titulo**/
 .titulo{
-  padding-top: 10px;
+    padding-top: 10px;
     color: #eec30b;
     font-style: oblique;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
     text-align: center;
-
 }
-
-.eslogan{
-
-
-}
-.registro-inicio {
-    display: inline-block;
-    position:relative;
-    right: 150px;
-    bottom: 0px;
-
-
-}
+/***botones registro esta adentro de caja hijo registro-inicio**/
 .bregistro{
     background-color: #4e7df6;
     border-color: #452efb;
-    border-radius: 20px;
-    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
     font-weight: bold;
     font-family: sans-serif;
     color: #ffffff;
     width: 130px;
+    padding: 5px;
 }
+/***botones inicio esta adentro de caja hijo registro-inicio**/
 .binicio{
     background-color: #4e7df6;
     border-color: #452efb;
-    border-radius: 20px;
-    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
     font-weight: bold;
     font-family: sans-serif;
     color: #ffffff;
     width: 150px;
+    padding: 5px;
 }
 /****buscador**/
-.buscador{
-  display: inline-block;
-  position:absolute;
-}
-
 .ibuscador{
-  border-radius: 20px;
+  padding: 5px;
+  margin-right: -6px;
 }
-
 .bbuscador{
   background-color: #0c43cf;
-  border-color: #6d5ee8;
-  border-radius: 20px;
+  border: 0px;
   font-size: 20px;
   font-weight: bold;
   font-family: sans-serif;
   color: #ffffff;
-  width: 40px;
+  padding: 2px 7px 5px 7px;
 }
 /****navbar**/
 nav ul{
@@ -99,85 +79,117 @@ nav ul{
   list-style: none;
   background-color: #2f4cc3;
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 ul a:hover{
-  background-color: red;
-
+  background-color: #eec30b;
+  transition: 0.5s;
+}
+a{
+  text-decoration: none;
 }
 li {
     padding: 20px 20px 20px 20px;
     color: #ffffff;
 }
 /****seccion1 caja padre adentro se encuentra  carrucel y menu***/
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+/****seccion1 caja padre adentro se encuentra  carrucel y menu
 .slider-menu1-seccion1{
   display: flex;
   justify-content: space-around;
-  padding: 50px 0px  60px  0px  ;
 }
-
-/****hijo de la seccion 1 slider***/
-
+***/
+/****hijo de la seccion 1 slider
 .slider {
 
   display: flex;
   justify-content: center;
-}
+}***/
 /**** hijo de la seccion 2 menu izquierda***/
-.menu{
+aside{
   background-color: #4566de;
-  width: 120px;
+  width: 180px;
   height: 175px;
   text-align: left;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .lista2 a li:hover {
-  background-color: #302cde;
-  list-style: none;
-
+  background-color: #eec30b;
+  transition: 0.5s;
 }
 
 /***seccion2 caja padre se encuentran los productos***/
 .m-a-productos1{
 display: flex;
-justify-content: space-around;
-padding: 0px 0px 10px 0px;
-border: 3px solid #bf0fcc;
+justify-content:space-between;
+margin-top: 10px;
+margin-bottom: 20px;
+flex-wrap: wrap;  /**melas avienta abajo**/
 }
 
-.tel1{
-  border: 3px solid #cb6a1a;
-}
-
-/***seccion2 caja padre se encuentran los productos lap***/
-.m-a-productos2{
+.tumbail1 {
+  border: 3px solid #d6d2d6;
+  border-radius: 5px;
   display: flex;
-  justify-content: space-around;
-  padding: 10px 0px 10px 0px;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
 }
 
-/***seccion2 caja padre se encuentran los productos lap***/
-.m-a-productos3{
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0px 40px 0px;
+.tumbail1:hover {
+  border: 3px solid #1542e2;
+  transition: .5s;
+}
+.tumbail1 p {
+    color: #1c18e2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.tumbail1 button{
+  background-color: #1b6ab4;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  font-family: sans-serif;
+
+}
+
+.tumbail1 button:hover {
+  background-color: #1c18e4;
 }
 /****footer***/
 footer{
   width: auto;
   height: auto;
-  padding: 40px 40px 40px 40px;
+  padding: 20px;
   text-align: center;
   background-color: #000000;
   color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+#img {
+  width: 70px;
+  height: 70px;
+}
+h3{
+  margin-top: 20px;
 }
 
 .face{
-  display: inline-block;
-  right: 1500px;
-}
 
-.img-footer{
-    display: inline-block;
 }
