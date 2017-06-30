@@ -3,8 +3,6 @@
   padding: 0px;
 }
 body{
-
-
 }
 /***Caja padre**/
 header {
@@ -93,26 +91,15 @@ li {
     padding: 20px 20px 20px 20px;
     color: #ffffff;
 }
-/****seccion1 caja padre adentro se encuentra  carrucel y menu***/
+/****seccion1 caja padre adentro se encuentra  carrucel, menu y thumbail***/
 main{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 30px;
 }
-/****seccion1 caja padre adentro se encuentra  carrucel y menu
-.slider-menu1-seccion1{
-  display: flex;
-  justify-content: space-around;
-}
-***/
-/****hijo de la seccion 1 slider
-.slider {
-
-  display: flex;
-  justify-content: center;
-}***/
-/**** hijo de la seccion 2 menu izquierda***/
+/****seccion-main caja padre adentro se encuentra  carrucel y thumbail
+/**** hijo de main anside menu izquierda***/
 aside{
   background-color: #4566de;
   width: 180px;
@@ -126,7 +113,6 @@ aside{
   background-color: #eec30b;
   transition: 0.5s;
 }
-
 /***seccion2 caja padre se encuentran los productos***/
 .m-a-productos1{
 display: flex;
@@ -164,7 +150,6 @@ flex-wrap: wrap;  /**melas avienta abajo**/
   padding: 10px;
   color: #fff;
   font-family: sans-serif;
-
 }
 
 .tumbail1 button:hover {
@@ -189,7 +174,112 @@ footer{
 h3{
   margin-top: 20px;
 }
+/****************************************Quienes somos**********************************************/
+.quienes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1000px;
+  height: 500px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.quienes-mision{
+  border: 3px solid #d6d2d6;
+  border-radius: 5px;
+  width: 400px;
+  padding-top: 30px;
+  background-color: #f2eaf2;
+}
+.quienes-mision:hover{
+  border: 3px solid #8c7810;
+  transition: 0.6s;
 
-.face{
+}
+.quienes-mision  p{
+  text-align: justify;
+  font-family: sans-serif;
+  margin: 20px;
+}
+.quienes-mision h2{
+  margin-left: 20px;
+}
 
+.quienes-vision {
+  border: 3px solid #d6d2d6;
+  border-radius: 5px;
+  width: 1000px;
+  background-color: #f2eaf2;
+}
+
+.quienes-vision:hover{
+  border: 3px solid #8c7810;
+  transition: 0.6s;
+
+}
+.quienes-vision p{
+  text-align: justify;
+  font-family: sans-serif;
+  margin: 20px;
+}
+.quienes-vision h2{
+  margin-left: 20px;
+}
+/****************************************Quienes somos**********************************************/
+.principal{
+    width:900px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+      border: 5px solid #a616b8;
+}
+.seccion-main-formulario h2{
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  border: 5px solid #a616b8;
+}
+.formulario{
+  border: 2px solid #838787;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+
+
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.formulario:hover{
+    border: 2px solid #0e2e9e;
+    transition: 0.6s;
+    background-color: #d5ded9;
+
+}
+.formulario h3{
+  font-family: sans-serif;
+}
+
+.datos1{
+  display: flex;
+  flex-direction: column;
+}
+.datos3{
+
+  padding: 20px;
+}
+.formulario input{
+  width: 300px;
+  height: 20px;
+}
+/*****************************Datos empresa***********************************/
+.datos-empresa{
+  border: 2px solid #838787;
+  width: 200px;
+}
+.datos-empresa h3{
+  font-family: sans-serif;
 }
