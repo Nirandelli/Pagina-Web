@@ -227,29 +227,34 @@ h3{
 }
 /****************************************Quienes somos**********************************************/
 .principal{
-    width:900px;
+    width:1000px;
     display: flex;
-    justify-content:center;
     flex-direction: row;
+    justify-content: center;
     margin: auto;
     margin-top: 30px;
-      border: 5px solid #a616b8;
+    justify-content: space-around;
 }
-.seccion-main-formulario h2{
+.titulo-contac{
+  border: 5px solid rgb(39, 104, 223);
   text-align: center;
-  font-family: sans-serif;
-  margin-bottom: 20px;
-  border: 5px solid #a616b8;
-}
-.formulario{
-  border: 2px solid #838787;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
+}
+.seccion-main-formulario {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  width: 700px;
+}
+.formulario{
+  border: 2px solid #838787;
+  display: flex;
+  flex-wrap: wrap;
 
-
+  justify-content:space-between;
+  width: 700px;
   margin-bottom: 20px;
   border-radius: 6px;
 }
@@ -266,6 +271,12 @@ h3{
 .datos1{
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+}
+.datos2{
+  display: flex;
+  flex-direction: column;
+  margin-right:  20px;
 }
 .datos3{
 
@@ -276,10 +287,14 @@ h3{
   height: 20px;
 }
 /*****************************Datos empresa***********************************/
-.datos-empresa{
-  border: 2px solid #838787;
-  width: 200px;
+.aside-empresa{
+border: 2px solid #838787;
+background: #b9b0b1;
+padding: 10px;
+width: 200px;
+height: 200px;
 }
+
 .datos-empresa h3{
   font-family: sans-serif;
 }
