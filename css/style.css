@@ -98,7 +98,8 @@ main{
   justify-content: space-around;
   margin-top: 30px;
 }
-/****seccion-main caja padre adentro se encuentra  carrucel y thumbail
+/****
+ caja padre adentro se encuentra  carrucel y thumbail
 /**** hijo de main anside menu izquierda***/
 aside{
   background-color: #4566de;
@@ -122,7 +123,7 @@ margin-bottom: 20px;
 flex-wrap: wrap;  /**melas avienta abajo**/
 }
 
-.tumbail1 {
+.producto1 {
   border: 3px solid #d6d2d6;
   border-radius: 5px;
   display: flex;
@@ -131,11 +132,11 @@ flex-wrap: wrap;  /**melas avienta abajo**/
   padding: 5px;
 }
 
-.tumbail1:hover {
+.producto1:hover {
   border: 3px solid #1542e2;
   transition: .5s;
 }
-.tumbail1 p {
+.producto1 p {
     color: #1c18e2;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -143,7 +144,7 @@ flex-wrap: wrap;  /**melas avienta abajo**/
     font-weight: bold;
 
 }
-.tumbail1 button{
+.producto1 button{
   background-color: #1b6ab4;
   border: 0px;
   border-radius: 5px;
@@ -152,7 +153,7 @@ flex-wrap: wrap;  /**melas avienta abajo**/
   font-family: sans-serif;
 }
 
-.tumbail1 button:hover {
+.producto1 button:hover {
   background-color: #1c18e4;
 }
 /****footer***/
@@ -228,35 +229,39 @@ h3{
 /****************************************Quienes somos**********************************************/
 .principal{
     width:1000px;
+    height: 600px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     justify-content: space-around;
 }
 .titulo-contac{
-  border: 5px solid rgb(39, 104, 223);
   text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 400px;
+  margin-bottom: 20px;
 }
 .seccion-main-formulario {
   font-family: sans-serif;
-  margin-bottom: 20px;
   width: 700px;
+  height: 350px;
+
 }
 .formulario{
   border: 2px solid #838787;
   display: flex;
   flex-wrap: wrap;
-
   justify-content:space-between;
   width: 700px;
-  margin-bottom: 20px;
+
   border-radius: 6px;
+  height: 360px
 }
 .formulario:hover{
     border: 2px solid #0e2e9e;
@@ -266,6 +271,7 @@ h3{
 }
 .formulario h3{
   font-family: sans-serif;
+  padding-bottom: 10px;
 }
 
 .datos1{
@@ -289,12 +295,63 @@ h3{
 /*****************************Datos empresa***********************************/
 .aside-empresa{
 border: 2px solid #838787;
-background: #b9b0b1;
-padding: 10px;
+background-color: #0d3270;
+padding: 0px 10px 2px 10px ;
 width: 200px;
-height: 200px;
+height: 350px;
 }
 
 .datos-empresa h3{
   font-family: sans-serif;
+}
+.mapa{
+  width: 950px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.titulo-empresa h4{
+  color: #e339d7;
+}
+/*****************************telefonos**********************************/
+
+.seccion-main-telefonos{
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.seccion-main-telefonos {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.seccion-main-telefonos h2{
+  border: 2px solid #132978;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.productos-tel1{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  justify-content:space-between;
+  margin-bottom: 20px;
+}
+.linea{
+  background: #d0c205;
+  height: 3px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+}
+.titulo-telefono{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+
 }
