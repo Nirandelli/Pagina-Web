@@ -28,7 +28,8 @@ header {
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 /***botones registro esta adentro de caja hijo registro-inicio**/
 .bregistro{
@@ -353,5 +354,214 @@ height: 350px;
   display: flex;
   flex-direction: row;
   width: 900px;
+}
+/*****************************registro**********************************/
+.principal-registro{
+  margin: auto;
+  width: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.formulario-registro{
+  border: 3px solid #c6c4c8;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content:space-around;
 
+}
+.datos-registro{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.formulario-registro:hover {
+  background-color: #dfd7dd;
+  transition: 0.6s;
+  border-color: #77630e;
+}
+
+.datos-registro h3{
+  font-family: sans-serif;
+
+}
+.datos-registro input{
+    width: 200px;
+    margin-top: 10px;
+
+}
+.bot{
+  padding-top:  30px;
+}
+.bot button{
+    background-color: #102d83;
+    font-family: sans-serif;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+}
+.foto{
+  border: 2px solid #a28a0f;
+  height: 120px;
+  width: 120px;
+}
+
+#b{
+  background: #aeafa0;
+  font-family:sans-serif;
+  font-weight: bold;
+  width: auto;
+}
+.regis{
+  width: 800px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.regis h1{
+  font-family: sans-serif;
+}
+/************Logueo*************/
+.principal-logueo{
+  margin: auto;
+  width: 500px;
+}
+.formulario-logueo{
+  border: 3px solid #e2dad6;
+  width: 300px;
+  margin-bottom:  50px;
+  margin-top:   50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.formulario-logueo:hover{
+  background-color: #dfd7dd;
+  transition: 0.6s;
+  border-color: #77630e;
+}
+.formulario-logueo h3, h1{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bot-ini{
+  padding-top:  30px;
+  display: flex;
+  justify-content:space-around;
+}
+.bot-ini button{
+    background-color: #102d83;
+    font-family: sans-serif;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    }
+/***********************Descripcion************************/
+.principal-descrip{
+  margin: auto;
+  display: flex;
+  justify-content: row;
+  justify-content:space-around;
+  border: 3px solid #d1d1d1;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.principal-descrip:hover {
+  background-color: #c5cdc7;
+  border: 3px solid #3012e7;
+  transition: 0.6s;
+
+}
+.galeria{
+  width: 150px;
+}
+.galeria img{
+  width: 100px;
+  height: 100px;
+}
+.descripcion{
+  display: flex;
+  align-self:center;
+}
+.d{
+    display: flex;
+    align-self:center;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+}
+.d p, h2{
+  text-align: justify;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.d button{
+  font-family: sans-serif;
+  background-color: #130a60;
+  color:#fff;
+  height: 30px;
+  width: 80px;
+}
+/**********************Carrito******************/
+.principal-carrito{
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom:  50px;
+  margin-top: 50px;
+}
+.tabla{
+    border: 2px solid #0d0c65;
+    display: flex;
+    justify-content:space-between;
+    width: 1200px;
+    height: 200px;
+    margin: 30px;
+}
+.tabla:hover{
+  background-color: #dbdde3;
+  transition: 0.6s;
+}
+table{
+    margin: 20px;
+}
+table th{
+  font-family: sans-serif;
+  background-color: #0d0a3e;
+  color: #fff;
+  padding: 10px;
+
+}
+table td{
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #d2cecf;
+  padding: 10px;
+}
+.iva{
+  border: 2px solid #0d0c65;
+  width: 200px;
+  margin: 30px;
+  padding: 20px;
+}
+.iva:hover{
+  background-color: #dbdde3;
+  transition: 0.6s;
+}
+.iva h4{
+  font-family: sans-serif;
 }
