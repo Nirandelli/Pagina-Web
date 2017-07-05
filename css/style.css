@@ -3,6 +3,9 @@
   padding: 0px;
 }
 body{
+  @media only screen and (max-width : 320px)  {
+
+  }
 }
 /***Caja padre**/
 header {
@@ -19,6 +22,7 @@ header {
   display: flex;
   justify-content: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 /***caja hijo titulo**/
 .titulo{
@@ -70,32 +74,36 @@ header {
   padding: 2px 7px 5px 7px;
 }
 /****navbar**/
-nav ul{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  background-color: #2f4cc3;
-  font-size: 20px;
-  font-family: sans-serif;
-}
 
-ul a:hover{
-  background-color: #eec30b;
-  transition: 0.5s;
-}
-a{
-  text-decoration: none;
-}
-li {
-    padding: 20px 20px 20px 20px;
-    color: #ffffff;
-}
+  nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #2f4cc3;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  ul a:hover{
+    background-color: #eec30b;
+    transition: 0.5s;
+  }
+  a{
+    text-decoration: none;
+  }
+  li {
+      padding: 20px 20px 20px 20px;
+      color: #ffffff;
+  }
+
 /****seccion1 caja padre adentro se encuentra  carrucel, menu y thumbail***/
 main{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -157,6 +165,8 @@ flex-wrap: wrap;  /**melas avienta abajo**/
 .producto1 button:hover {
   background-color: #1c18e4;
 }
+
+
 /****footer***/
 footer{
   width: auto;
@@ -167,6 +177,7 @@ footer{
   color: #ffffff;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content:space-between;
 }
 #img {
@@ -177,21 +188,28 @@ h3{
   margin-top: 20px;
 }
 /****************************************Quienes somos**********************************************/
+.seccion-main-quienes{
+  display: flex;
+  flex-wrap: wrap;
+}
 .quienes{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 1000px;
   height: 500px;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
 .quienes-mision{
-  border: 3px solid #d6d2d6;
   border-radius: 5px;
   width: 400px;
+  height: 280px;
   padding-top: 30px;
   background-color: #f2eaf2;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #d6d2d6;
 }
 .quienes-mision:hover{
   border: 3px solid #8c7810;
@@ -212,6 +230,8 @@ h3{
   border-radius: 5px;
   width: 1000px;
   background-color: #f2eaf2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .quienes-vision:hover{
@@ -226,6 +246,11 @@ h3{
 }
 .quienes-vision h2{
   margin-left: 20px;
+}
+.video{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
 }
 /****************************************Quienes somos**********************************************/
 .principal{
@@ -252,7 +277,8 @@ h3{
   font-family: sans-serif;
   width: 700px;
   height: 350px;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 .formulario{
   border: 2px solid #838787;
@@ -260,7 +286,6 @@ h3{
   flex-wrap: wrap;
   justify-content:space-between;
   width: 700px;
-
   border-radius: 6px;
   height: 360px
 }
@@ -528,7 +553,7 @@ height: 350px;
     border: 2px solid #0d0c65;
     display: flex;
     justify-content:space-between;
-    width: 1200px;
+    width: 900px;
     height: 200px;
     margin: 30px;
 }
@@ -537,7 +562,7 @@ height: 350px;
   transition: 0.6s;
 }
 table{
-    margin: 20px;
+    margin: 10px;
 }
 table th{
   font-family: sans-serif;
@@ -554,9 +579,9 @@ table td{
 }
 .iva{
   border: 2px solid #0d0c65;
-  width: 200px;
+  width: 150px;
   margin: 30px;
-  padding: 20px;
+  padding: 10px;
 }
 .iva:hover{
   background-color: #dbdde3;
