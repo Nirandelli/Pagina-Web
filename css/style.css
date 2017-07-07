@@ -31,7 +31,7 @@ header {
   justify-content: center;
 }
 /***botones registro esta adentro de caja hijo registro-inicio**/
-.bregistro{
+.boton-registro{
   background-color: #4e7df6;
   border-color: #452efb;
   border: 0px;
@@ -615,7 +615,7 @@ table td{
   font-family: sans-serif;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 530px) {
+@media only screen and (min-width: 0px) and (max-width: 530px) {
   .menu{
     display: block;
     padding: 10px;

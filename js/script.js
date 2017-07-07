@@ -11,5 +11,5 @@ function navBar() {
     nav.style.transition = "1s";
     boolean = false;
   }
-  console.log(boolean);
+  console.log('nav bar esta abierto ', boolean);
 }
