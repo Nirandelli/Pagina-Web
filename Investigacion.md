@@ -1,13 +1,13 @@
 **Investigacion**
 
 
-** Que es Java**
+**Que es Java**
 
 ```
 Java es un lenguaje de programación compilado
 ```
 
-** Que es JavaScript**
+**Que es JavaScript**
 
 ```
 javaScript es un lenguaje interpretado que se utiliza principalmente para crear páginas web
