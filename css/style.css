@@ -69,8 +69,7 @@ header {
   padding: 2px 7px 5px 7px;
 }
 /****navbar**/
-
-  nav ul{
+nav ul{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -80,21 +79,24 @@ header {
   background-color: #2f4cc3;
   font-size: 20px;
   font-family: sans-serif;
-  }
+  left: 0%;
+}
 
-  ul a:hover{
-    background-color: #eec30b;
-    transition: 0.5s;
-  }
-  a{
-    text-decoration: none;
-  }
-  li {
-    padding: 20px 20px 20px 20px;
-    color: #ffffff;
-  }
+ul a:hover{
+  background-color: #eec30b;
+  transition: 0.5s;
+}
+a{
+  text-decoration: none;
+}
+li {
+  padding: 20px 20px 20px 20px;
+  color: #ffffff;
+}
+.menu {
+  display: none;
+}
 /****seccion1 caja padre adentro se encuentra  carrucel, menu y thumbail quienes, accesorios***/
-
 .flex-box{
   display: flex;
   flex-direction: row;
@@ -621,6 +623,19 @@ table td{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 530px) {
+  .menu{
+    display: block;
+    padding: 10px;
+    background-color: #2f4cc3;
+    color: #fff;
+    border: 0;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 -100%;
+  }
   .producto1{
     width: 100%;
   }
