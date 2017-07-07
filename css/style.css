@@ -398,7 +398,6 @@ label{
   width: 100%;
   margin-bottom: 10px;
   margin-top: 20px;
-
 }
 .titulo-telefono{
   display: flex;
@@ -427,42 +426,38 @@ label{
   justify-content:space-between;
 }
 .datos-registro{
-    width: 280px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-left: 20px;
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 .formulario-registro:hover {
   background-color: #dfd7dd;
   transition: 0.6s;
   border-color: #77630e;
 }
-
 .datos-registro h3{
   font-family: sans-serif;
-
 }
 .datos-registro input{
-    width: 200px;
-    margin-top: 10px;
-
+  width: 200px;
+  margin-top: 10px;
 }
 .bot{
   padding-top:  30px;
 }
 .bot button{
-    background-color: #102d83;
-    font-family: sans-serif;
-    color: #fff;
-    height: 30px;
-    width: 100px;
+  background-color: #102d83;
+  font-family: sans-serif;
+  color: #fff;
+  height: 30px;
+  width: 100px;
 }
 .foto{
   border: 2px solid #a28a0f;
   height: 120px;
   width: 120px;
 }
-
 #b{
   background: #aeafa0;
   font-family:sans-serif;
@@ -507,19 +502,18 @@ label{
   font-family: sans-serif;
   text-align: center;
 }
-
 .bot-ini{
   padding-top:  30px;
   display: flex;
   justify-content:space-around;
 }
 .bot-ini button{
-    background-color: #102d83;
-    font-family: sans-serif;
-    color: #fff;
-    height: 30px;
-    width: 100px;
-    }
+  background-color: #102d83;
+  font-family: sans-serif;
+  color: #fff;
+  height: 30px;
+  width: 100px;
+}
 /***********************Descripcion************************/
 .principal-descrip{
   margin: auto;
@@ -538,7 +532,6 @@ label{
   background-color: #c5cdc7;
   border: 3px solid #3012e7;
   transition: 0.6s;
-
 }
 .galeria{
   width: 150px;
@@ -552,11 +545,11 @@ label{
   align-self:center;
 }
 .d{
-    display: flex;
-    align-self:center;
-    flex-wrap: wrap;
-    width: 300px;
-    justify-content: center;
+  display: flex;
+  align-self:center;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: center;
 }
 .d p, h2{
   text-align: justify;
@@ -581,12 +574,12 @@ label{
   margin-top: 50px;
 }
 .tabla{
-    border: 2px solid #0d0c65;
-    display: flex;
-    justify-content:space-between;
-    width: 900px;
-    height: auto;
-    margin: 30px;
+  border: 2px solid #0d0c65;
+  display: flex;
+  justify-content:space-between;
+  width: 900px;
+  height: auto;
+  margin: 30px;
 }
 .tabla:hover{
   background-color: #dbdde3;
