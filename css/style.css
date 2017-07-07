@@ -359,7 +359,6 @@ label{
   color: #e339d7;
 }
 /*****************************telefonos**********************************/
-
 .seccion-main-telefonos{
   width: 1150px;
   display: flex;
@@ -371,13 +370,17 @@ label{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .seccion-main-telefonos h2{
   border: 2px solid #132978;
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 5px;
   font-family: sans-serif;
+}
+.principal-tel{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .productos-tel1{
   display: flex;
@@ -400,6 +403,7 @@ label{
   flex-direction: row;
   width: 900px;
 }
+
 /*****************************registro**********************************/
 .principal-registro{
   margin: auto;
@@ -569,6 +573,7 @@ label{
   width: 1200px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-between;
   margin-bottom:  50px;
   margin-top: 50px;
@@ -578,7 +583,7 @@ label{
     display: flex;
     justify-content:space-between;
     width: 900px;
-    height: 200px;
+    height: auto;
     margin: 30px;
 }
 .tabla:hover{
@@ -615,26 +620,30 @@ table td{
   font-family: sans-serif;
 }
 
-.principal-tel{
-  border: solid red 3px;
-  width: 900px;
-  display: flex;
-  flex-wrap: wrap;
-}
-@media only screen and (max-width : 320px)  {
+@media only screen and (min-width: 320px) and (max-width: 530px) {
   .producto1{
     width: 100%;
   }
+  .quienes-mision{
+    width: 100%;
+  }
   .seccion-main-quienes{
-    width: 90%;
+    width: 100%;
   }
   .video{
     margin-top: 5%;
+    width: 100%;
   }
-
+  .seccion-main-telefonos{
+    width: 100%;
+  }
+  .productos-tel1{
+    width: 100%;
+  }
   .principal-tel{
     width: 100%;
     height: auto;
+    margin-top: 4%;
   }
   /************Responsi-Contactanos************/
   .principal{
@@ -654,7 +663,7 @@ table td{
       margin: 2%;
   }
   .datos2{
-    width: 1005;
+    width: 100%;
     margin: 2%;
   }
   .datos3{
@@ -685,27 +694,212 @@ table td{
   }
   /*************Responsi-Descrip************************/
   .principal-descrip{
+    width: 95%;
+    padding: 0%;
+  }
+    /*************Responsi-Carrito************************/
+    .principal-carrito{
+      width: 100%;
+    }
+    .tabla{
+      width: 100%;
+      overflow-x: scroll;
+      overflow-y: scroll;
+    }
+    table{
+      width: 100%;
+      margin: 0%;
+    }
+  }
+  @media only screen and (max-width: 768px) and  (min-width: 531px)  {
+  .producto1{
     width: 100%;
+  }
+  .quienes-mision{
+    width: 100%;
+  }
+  .seccion-main-quienes{
+    width: 100%;
+  }
+  .video{
+    margin-top: 5%;
+    width: 100%;
+  }
+  .seccion-main-telefonos{
+    width: 100%;
+  }
+  .productos-tel1{
+    width: 100%;
+  }
+  .principal-tel{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+  }
+  /************Responsi-Contactanos************/
+  .principal{
+    width: 100%;
+  }
+  .aside-empresa{
+    width: 100%;
+  }
+  .seccion-main-formulario{
+    width: 100%;
+  }
+  .formulario{
+    width: 100%;
+  }
+  .datos1{
+      width: 100%;
+      margin: 2%;
+  }
+  .datos2{
+    width: 100%;
+    margin: 2%;
+  }
+  .datos3{
+    width: 100%;
+    margin: 2%;
+  }
+  .textA{
+    width: 100%;
+    height: 80%;
+  }
+  /**********Registro**************/
+  .principal-registro{
+    width: 100%;
+  }
+  .formulario-registro{
+    width: 100%;
+    padding: 5%;
+  }
+  /**************Responsi-Logue***************/
+  .principal-logueo{
+    width: 95%;
     margin-left: 2%;
     padding: 0%;
   }
+  .formulario-logueo{
+    width: 100%;
+    padding: 3% 0% 3% 0%;
   }
-@media only screen and (max-width : 768px)  {
+  /*************Responsi-Descrip************************/
+  .principal-descrip{
+    width: 95%;
+    padding: 0%;
+  }
+    /*************Responsi-Carrito************************/
+    .principal-carrito{
+      width: 100%;
+    }
+    .tabla{
+      width: 100%;
+      overflow-x: scroll;
+      overflow-y: scroll;
+    }
+    table{
+      width: 100%;
+      margin: 0%;
+    }
+  }
+  @media only screen and (max-width: 1280px) and (min-width: 769px)  {
   .producto1{
+    width: 30%;
+  }
+  .quienes-mision{
+    width: 50%;
+  }
+  .quienes-vision{
     width: 100%;
   }
   .seccion-main-quienes{
     width: 90%;
   }
   .video{
-    margin-top: 5%;
+    width: 40%;
   }
-  .datos-registro{
-      width: 100%;
-      margin-top: 0%;
-      margin-bottom: 0%;
+
+  .seccion-main-telefonos{
+    width: 95%;
   }
+  .productos-tel1{
+    width: 100%;
   }
-  @media only screen and (max-width : 1280px)  {
+  .principal-tel{
+    width: 80%;
+    height: auto;
+  }
+  /************Responsi-Contactanos************/
+  .principal{
+    width: 80%;
+  }
+  .aside-empresa{
+    width: 65%;
+  }
+  .seccion-main-formulario{
+    width: 70%;
 
   }
+  .formulario{
+    width: 100%;
+    margin: 0%;
+  }
+  .datos1{
+      width: 50%;
+  }
+  .datos2{
+    width: 40%;
+  }
+  .datos3{
+    width: 100%;
+    margin: 2%;
+  }
+  .textA{
+    width: 100%;
+    height: 80%;
+  }
+  .mapa{
+    width: 70%;
+  }
+  .datos1 input{
+    width: 80%;
+  }
+  .datos2 input{
+    width: 100%;
+  }
+  /**********Registro**************/
+  .principal-registro{
+    width: 60%;
+  }
+  .formulario-registro{
+    width: 100%;
+    padding: 5%;
+  }
+  /**************Responsi-Logue***************/
+  .principal-logueo{
+    width: 30%;
+    padding: 0%;
+  }
+  .formulario-logueo{
+    width: 100%;
+    padding: 3% 0% 3% 0%;
+  }
+  /*************Responsi-Descrip************************/
+  .principal-descrip{
+    width: 75%;
+    padding: 0%;
+  }
+    /*************Responsi-Carrito************************/
+    .principal-carrito{
+      width: 90%;
+    }
+    .tabla{
+      width: 70%;
+      overflow-x: scroll;
+      overflow-y: scroll;
+    }
+    table{
+      width: 100%;
+      margin: 0%;
+    }
+}
